@@ -1,0 +1,54 @@
+{
+ "both": {
+  "n": 1011,
+  "mal_auroc": 0.8269765367792864,
+  "mal_sens": 0.6462585034013606,
+  "mal_spec": 0.8661087866108786,
+  "thr_op": 0.3979202926158905,
+  "mal_sens_at_op": 0.7142857142857143,
+  "mal_spec_at_op": 0.799163179916318,
+  "macro_f1_overlap": 0.5709092250676857
+ },
+ "c": {
+  "n": 1011,
+  "mal_auroc": 0.7780718982153532,
+  "mal_sens": 0.6224489795918368,
+  "mal_spec": 0.7782426778242678,
+  "thr_op": 0.26749813854694365,
+  "mal_sens_at_op": 0.8401360544217688,
+  "mal_spec_at_op": 0.5718270571827058,
+  "macro_f1_overlap": 0.423369707814655
+ },
+ "d": {
+  "n": 1011,
+  "mal_auroc": 0.7878253114355924,
+  "mal_sens": 0.5714285714285714,
+  "mal_spec": 0.8744769874476988,
+  "thr_op": 0.38513848185539246,
+  "mal_sens_at_op": 0.6700680272108843,
+  "mal_spec_at_op": 0.7866108786610879,
+  "macro_f1_overlap": 0.5362734236710822
+ },
+ "referral": {
+  "clin_entropy": {
+   "min_refer_frac": 0.9,
+   "dermoscopy_avoided": 0.09999999999999998,
+   "auc_sens": 0.7356292517006803
+  },
+  "clin_mal_margin": {
+   "min_refer_frac": 0.8,
+   "dermoscopy_avoided": 0.19999999999999996,
+   "auc_sens": 0.7295068027210885
+  },
+  "random": {
+   "min_refer_frac": 1.0,
+   "dermoscopy_avoided": 0.0,
+   "auc_sens": 0.7776955782312927
+  },
+  "referral_head": {
+   "min_refer_frac": 0.75,
+   "dermoscopy_avoided": 0.25,
+   "auc_sens": 0.7374999999999999
+  }
+ }
+}
